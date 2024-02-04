@@ -33,14 +33,24 @@ header{
 	top: 18%;
 	left: 20%;
 	z-index: 4;
-
 }
 
 .banner h1{
 	font-family: "Mooli", cursive;
 	font-size: 13rem;
-	
+	color: #fff;
+	text-shadow: 0 1rem 3rem rgba(0,0,0, 0.3);
 }
+
+.banner h3{
+	font-size: 3rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 1rem 3rem rgba(0,0,0, 0.1);
+	margin: 0 0 3rem 1rem;
+}
+
 /* Backgrounds */
 .background div{
 	position: absolute;
