@@ -27,7 +27,20 @@ header{
 	position: relative;
 }
 
+/* Banner */
+.banner{
+	position: absolute;
+	top: 18%;
+	left: 20%;
+	z-index: 4;
 
+}
+
+.banner h1{
+	font-family: "Mooli", cursive;
+	font-size: 13rem;
+	
+}
 /* Backgrounds */
 .background div{
 	position: absolute;
@@ -42,9 +55,33 @@ header{
 	transform: rotate(-15deg) skew(30deg);
 	border-radius: 0 0 0 10rem;
 	opacity: 90%;
+	z-index: 1;
 }
+
+.background-1{
+	width: 50%;
+	height: 100%;
+	background: linear-gradient(transparent 60%, #ff26ac, #f724db);
+	top: -40%;
+	right: -10%;
+	transform: rotate(-15deg) skew(30deg);
+	border-radius: 0 0 0 5rem;
+}
+
+.background-2{
+	width: 50%;
+	height: 100%;
+	background: linear-gradient(transparent 70%, #ca5995, #fe9458);
+	top: -60%;
+	right: 10%;
+	transform: rotate(-15deg) skew(30deg);
+	border-radius: 0 0 0 5rem;
+	z-index: 2;
+	opacity: 40%;
+	box-shadow: 7rem 4rem 6rem rgba(0,0,0, 0.9);
+}
+
 /* End of Backgrounds */
 /* End of Header */
-
 /* End of Container */
 
